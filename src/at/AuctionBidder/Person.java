@@ -10,7 +10,10 @@ public class Person {
         this.name = name;
         this.maxBid = maxBid;
     }
-
+    public Person() {
+        this.name = "DefaultName";
+        this.maxBid = 0;
+    }
     public String getName() {
         return name;
     }
